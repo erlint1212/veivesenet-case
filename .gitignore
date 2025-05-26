@@ -1,0 +1,7 @@
+*.env
+*.png
+psql.sh
+*.csv
+goose.sh
+*.pdf
+.DS_Store
