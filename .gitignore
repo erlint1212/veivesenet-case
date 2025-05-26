@@ -5,3 +5,30 @@ psql.sh
 goose.sh
 *.pdf
 .DS_Store
+
+# Environment files
+.env
+*.env.*
+!.env.example # If you have an example .env file
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+env/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
